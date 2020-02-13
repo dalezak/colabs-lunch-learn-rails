@@ -1,0 +1,31 @@
+<% if point.errors.any? %>
+  <% point.errors.full_messages.each do |message| %>
+  <div class="alert alert-danger" role="alert">
+    <%= message %>
+  </div>
+  <% end %>
+<% end %>
+<%= form_with(model: point, local: true) do |form| -%>
+<div class="card shadow-sm">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      <div class="form-group">
+        <%= form.label :text, class: "font-weight-bold" %>
+        <%= form.text_field :text, placeholder: "Enter text", class: "form-control" %>
+      </div>
+    </li>
+    <li class="list-group-item">
+      <div class="form-group">
+        <%= form.label :reason_id, class: "font-weight-bold" %>
+        <%= form.text_field :reason_id, placeholder: "Enter reason_id", class: "form-control" %>
+      </div>
+    </li>
+  </ul>
+  <div class="card-footer">
+    <%= link_to "Cancel", point, class: 'btn btn-outline-secondary float-left' if point.persisted? %>
+    <%= link_to "Cancel", points_path, class: 'btn btn-outline-secondary float-left' if !point.persisted? %>
+    <%= form.submit "Save", class: "btn btn-primary float-right" if point.persisted? %>
+    <%= form.submit "Create", class: "btn btn-primary float-right" if !point.persisted? %>
+  </div>
+</div>
+<% end %>

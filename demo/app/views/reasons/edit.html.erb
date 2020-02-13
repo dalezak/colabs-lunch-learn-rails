@@ -1,0 +1,7 @@
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><%= link_to "Reasons", reasons_path %></li>
+  <li class="breadcrumb-item"><%= link_to @reason.id, @reason %></li>
+  <li class="breadcrumb-item active">Edit</li>
+</ol>
+
+<%= render 'form', reason: @reason %>

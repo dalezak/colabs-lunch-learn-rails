@@ -1,0 +1,12 @@
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><%= link_to "Reasons", reasons_path %></li>
+  <li class="breadcrumb-item active mr-auto"><%= @reason.id %></li> 
+</ol>
+<div class="card shadow-sm">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      <p class="font-weight-bold">Text</p>
+      <p class="font-weight-normal"><%= @reason.text %></p>
+    </li>
+  </ul>
+</div>

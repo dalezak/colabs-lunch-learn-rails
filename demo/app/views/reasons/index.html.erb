@@ -1,0 +1,17 @@
+<ol class="breadcrumb">
+  <li class="breadcrumb-item active mr-auto">Reasons</li>
+</ol>
+<div class="card-columns">
+  <% @reasons.each do |reason| %>
+    <div class="card card mb-4 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title"><%= link_to reason.text, reason %></h5>
+      </div>
+      <ul class="list-group list-group-flush">
+        <% reason.points.each do |point| %>
+          <li class="list-group-item"><%= point.text %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+</div>
