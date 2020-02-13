@@ -11,3 +11,5 @@ rails generate controller Pages index --no-javascripts --no-stylesheets --no-ass
 rails s
 ```
 - http://localhost:3000/pages/index
+
+## [Next: Routes](18_ROUTES.md)

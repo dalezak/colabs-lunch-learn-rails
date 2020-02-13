@@ -26,3 +26,5 @@ belongs_to :reason
 ```
 
 > Hmm, readable code.... 
+
+## [Next: More Routes](20_ROUTES.md)

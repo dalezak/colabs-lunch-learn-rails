@@ -43,3 +43,5 @@ export default {
 ```
 <hello-rails></hello-rails>
 ```
+
+## [Next: And Questions](34_QUESTIONS.md)

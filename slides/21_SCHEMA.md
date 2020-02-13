@@ -5,3 +5,5 @@
 ```
 rake db:migrate
 ```
+
+## [Next: Rails Console](22_CONSOLE.md)

@@ -27,3 +27,5 @@ rm db/schema.rb
 rake db:migrate
 rake db:reset
 ```
+
+## [Next: Rake Task](28_RAKE.md)

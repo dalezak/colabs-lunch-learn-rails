@@ -8,3 +8,5 @@ end
 ```
 rake routes
 ```
+
+## [Next: Database Schema](21_SCHEMA.md)

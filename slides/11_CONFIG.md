@@ -6,3 +6,5 @@
 - `config/environments/production.rb`
 
 ![hckr](https://www.pymnts.com/wp-content/uploads/2019/08/hotel-hackers.jpg)
+
+## [Next: Webpacker](12_WEBPACKER.md)

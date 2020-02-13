@@ -24,3 +24,5 @@
   <%= yield %>
 </div>
 ```
+
+## [Next: Rails Templates](26_TEMPLATES.md)

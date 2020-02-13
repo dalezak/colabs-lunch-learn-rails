@@ -20,3 +20,5 @@ import "../stylesheets/application";
 ```
 rails s
 ```
+
+## [Next: Partials](25_PARTIALS.md)

@@ -6,3 +6,5 @@
 > It's crazy that people are suggesting Shopify has been successful despite of Rails. Shopify has been successful because of Rails! - Tobi Lutke, Shopify CEO
 
 ![Rails companies](https://codica-images-staging.s3.eu-central-1.amazonaws.com/2922741304d740fd80ad4a484cb5dee1.jpg)
+
+ ## [Next: Development Philosophy](04_PHILOSOPHY.md)

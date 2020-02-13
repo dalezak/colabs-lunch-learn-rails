@@ -94,3 +94,5 @@ mkdir -p lib/templates/rails/scaffold_controller && cp $(bundle show jbuilder)/l
 </div>
 <%% end %>
 ```
+
+## [Next: Scaffolds 2.0](27_SCAFFOLDS.md)

@@ -7,3 +7,5 @@ scope :with_points, ->(include) { includes(:points) if include.present? && inclu
 ```
 @reasons = Reason.with_points(true).all
 ```
+
+## [Next: Config Initializers](31_INITIALIZERS.md)

@@ -26,3 +26,5 @@ end
 ```
 rake db:recreate
 ```
+
+## [Next: Rails Relationships](29_RELATIONSHIPS.md)

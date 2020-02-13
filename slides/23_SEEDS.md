@@ -61,3 +61,5 @@ puts reason.inspect
 ```
 rake db:reset
 ```
+
+## [Next: Bootstrap](24_BOOTSTRAP.md)

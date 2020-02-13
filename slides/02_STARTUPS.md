@@ -7,3 +7,5 @@
 > Ruby on Rails is a breakthrough in lowering the barriers of entry to programming. Powerful web applications that formerly might have taken weeks or months to develop can be produced in a matter of days. - Tim O'Reilly, Super Genius
 
 ![Startup](https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2013/10/Startup-idea-building.jpg)
+
+ ## [Next: Success Stories](03_SUCCESS.md)

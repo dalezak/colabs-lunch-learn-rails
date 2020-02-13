@@ -8,3 +8,5 @@
 </ul>
 ```
 ![N+1](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/11/1480438799n1_1.png)
+
+## [Next: Model Scopes](30_SCOPES.md)
